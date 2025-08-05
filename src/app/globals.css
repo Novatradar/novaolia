@@ -79,3 +79,10 @@ body {
   position: relative;
   overflow: hidden;
 }
+
+.services {
+  background: url('/images/services.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}

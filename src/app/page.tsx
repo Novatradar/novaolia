@@ -14,11 +14,13 @@ import FlowerImg from "@/images/flower.png";
 import "swiper/css";
 import "swiper/css/autoplay";
 import HeroSlider from "@/components/HeroSlider";
+import ServicesPage from "@/components/Services";
+import PackagingPage from "@/components/Packaging";
 
 export default function Home() {
   return (
     <div>
-      <nav className="py-3 flex justify-between items-center fixed top-0 left-0 right-0 z-50 px-20">
+      <nav className="py-4 flex justify-between items-center top-0 left-0 right-0 z-50 px-20">
         <div>
           <Image
             src={LogoImg}
@@ -29,29 +31,29 @@ export default function Home() {
           />
         </div>
         <div className="">
-          <ul className="flex items-center gap-6 justify-between">
+          <ul className="flex items-center gap-10 justify-between">
             <li>
-              <Link href="/" className="text-base font-light mr-8">
+              <Link href="/" className="text-sm font-medium">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="#about" className="text-base font-light mr-8">
+              <Link href="#about" className="text-sm font-medium">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="#products" className="text-base font-light mr-8">
+              <Link href="#products" className="text-sm font-medium">
                 Products
               </Link>
             </li>
             <li>
-              <Link href="#partnerships" className="text-base font-light mr-8">
+              <Link href="#partnerships" className="text-sm font-medium">
                 Partnership
               </Link>
             </li>
             <li>
-              <Link href="#contact" className="text-base font-light mr-8">
+              <Link href="#contact" className="text-sm font-medium">
                 Contact Us
               </Link>
             </li>
@@ -61,16 +63,16 @@ export default function Home() {
           {/* <button className="text-sm bg-transparent border-2 border-solid border-primary text-white px-8 py-4 rounded-lg">
             Get a Quote
           </button> */}
-          <button className="text-sm bg-primary border-2 border-solid border-primary text-black px-8 py-4 rounded-lg">
+          <button className="text-sm bg-primary border-2 border-solid border-primary text-black px-8 py-3 rounded-lg">
             Get a Quote
           </button>
         </div>
       </nav>
-      <div id="home">
+      <div id="home" className="px-8">
         <HeroSlider />
       </div>
       <div className="section bg-white px-20 pt-20" id="about">
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-2 items-end gap-20">
           <div>
             <Image
               src={MainImg}
@@ -78,61 +80,25 @@ export default function Home() {
               width={1000}
               height={1000}
               quality={100}
-              className="h-full w-full object-cover"
+              className="h-auto w-[70%] ml-auto object-cover"
             />
           </div>
           <div>
             <h2 className="text-4xl leading-[1.6] mb-2 font-bold">
               Premium Sunflower <br /> Oil & Seeds
             </h2>
-            <p className="text-base leading-loose">
-              We specialize in the production and export of high-quality
-              sunflower oil and seeds, sourced from the best farms in Ukraine.
-              Our products are known for their purity, taste, and nutritional
-              value, making them ideal for both industrial and consumer use.
+            <p className="text-base leading-loose mb-3">
+              At Novaolia Sunflower Oils, we are committed to delivering premium sunflower oil and sunflower based products that meet the highest international standards. Based in Ukraine &apos; the global leader in sunflower production and export &apos; we combine advanced processing technologies, strict quality assurance, and sustainable sourcing to serve clients worldwide.
             </p>
-            <ul className="mt-5 mb-10 bg-[#FFFDF4] flex flex-col gap-10 rounded-[17px] p-6">
-              <li className="flex items-center gap-3">
-                <div>
-                  <div className="size-8 rounded-full bg-primary"></div>
-                </div>
-                <p className="text-sm">
-                  Potter ipsum wand elf parchment wingardium. Squid
-                  prefect&apos;s dog wand second. Vulture-hat giant not
-                </p>
-              </li>
-              <li className="flex items-center gap-3">
-                <div>
-                  <div className="size-8 rounded-full bg-primary"></div>
-                </div>
-                <p className="text-sm">
-                  Potter ipsum wand elf parchment wingardium. Squid
-                  prefect&apos;s dog wand second. Vulture-hat giant not
-                </p>
-              </li>
-              <li className="flex items-center gap-3">
-                <div>
-                  <div className="size-8 rounded-full bg-primary"></div>
-                </div>
-                <p className="text-sm">
-                  Potter ipsum wand elf parchment wingardium. Squid
-                  prefect&apos;s dog wand second. Vulture-hat giant not
-                </p>
-              </li>
-              <li className="flex items-center gap-3">
-                <div>
-                  <div className="size-8 rounded-full bg-primary"></div>
-                </div>
-                <p className="text-sm">
-                  Potter ipsum wand elf parchment wingardium. Squid
-                  prefect&apos;s dog wand second. Vulture-hat giant not
-                </p>
-              </li>
-            </ul>
+            <p className="text-base leading-loose">
+              Our modern factory utilizes state-of-the-art pressing, refining and bottling lines to produce oil that meets ISO 22000, HACCP, HALAL and Organic certifications. Every product undergoes thorough laboratory testing, ensuring high purity, stability and quality consistency for global markets.
+            </p>
           </div>
         </div>
       </div>
-      <section className="bg-[#F8F8F8] pb-32 mt-10 relative" id="products">
+      <ServicesPage />
+      <PackagingPage />
+      <section className="bg-[#F8F8F8] pb-32 mt-5 relative" id="products">
         <div className="absolute -top-20 left-0">
           <Image
             src={FlowerImg}
@@ -174,9 +140,9 @@ export default function Home() {
                 Available in steel drums, IBC tanks, flexitanks, and ISO tanks
                 for large-scale export.
               </p>
-              <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
+              {/* <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
                 View Details
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="grid grid-cols-2 gap-6">
@@ -196,9 +162,9 @@ export default function Home() {
                 PET bottles (0.5L – 5L), jerry cans, and tin cans for retail
                 distribution.
               </p>
-              <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
+              {/* <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
                 View Details
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="grid grid-cols-2 gap-6">
@@ -218,9 +184,9 @@ export default function Home() {
                 High-quality seeds for oil production or direct consumption,
                 packaged for export.
               </p>
-              <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
+              {/* <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
                 View Details
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="grid grid-cols-2 gap-6">
@@ -243,9 +209,9 @@ export default function Home() {
                 dog wand second. Vulture-hat giant not elemental locomotor suits
                 fantastic are. Three fritters letters other last. */}
               </p>
-              <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
+              {/* <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
                 View Details
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
