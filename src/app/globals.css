@@ -2,25 +2,76 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #363636;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: #FFB703;
+  /* --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-ptSerif: "PT Serif", serif;
+  --font-outfit: "Outfit", sans-serif; */
+  --font-syne: "Syne", sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-ptSerif);
+  font-family: var(--font-outfit); */
+  font-family: var(--font-syne);
+}
+
+.hero {
+  background: url('/farm.jpg') no-repeat bottom center;
+  background-size: cover;
+  height: 750px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .main-bg {
+  background: url('/farm.jpg') no-repeat bottom center;
+  background-size: cover;
+  height: 750px;
+  position: relative;
+  overflow: hidden;
+} */
+
+.rotate-flower {
+  transform: rotate(180deg);
+}
+
+.overlay-svg {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1; */
+  height: auto;
+  min-height: 100%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.overlay-svg svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-section {
+  background: url('/contact.png') no-repeat center center;
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
 }

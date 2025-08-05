@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novaolia Sunflower Oils</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; scroll-behavior: smooth; }
+        header { 
+            background: url('factory-banner.jpg') no-repeat center/cover; 
+            padding: 100px 20px; 
+            text-align: center; 
+            color: white; 
+            animation: fadeIn 2s ease-in-out; 
+        }
+        header h1 { font-size: 48px; font-weight: bold; }
+        header p { font-size: 20px; margin-top: 15px; }
+        nav { background: #f1c40f; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000; }
+        nav a { margin: 0 15px; text-decoration: none; color: #000; font-weight: bold; transition: color 0.3s ease; }
+        nav a:hover { color: #fff; }
+        section { padding: 60px 20px; max-width: 1200px; margin: auto; opacity: 0; transform: translateY(30px); animation: fadeUp 1s forwards; }
+        section:nth-child(odd) { background: #fafafa; }
+        .flex { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; }
+        .box { 
+            flex: 1; min-width: 280px; 
+            padding: 20px; border: 1px solid #eee; 
+            background: #fff; border-radius: 8px; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        }
+        .box:hover { transform: translateY(-10px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .cta { background: #f1c40f; padding: 40px 20px; text-align: center; margin: 40px 0; }
+        .cta button { 
+            padding: 15px 40px; margin: 10px; border: none; 
+            background: #000; color: #fff; font-size: 18px; cursor: pointer; 
+            border-radius: 5px; transition: background 0.3s ease, transform 0.2s ease; 
+        }
+        .cta button:hover { background: #333; transform: scale(1.05); }
+        footer { background: #222; color: #ccc; padding: 40px 20px; text-align: center; }
+        footer a { color: #f1c40f; text-decoration: none; transition: color 0.3s ease; }
+        footer a:hover { color: #fff; }
+        h2 { color: #222; margin-bottom: 15px; }
+        img { width: 100%; border-radius: 5px; transition: transform 0.3s ease; }
+        img:hover { transform: scale(1.05); }
+        
+        /* Animations */
+        @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+        @keyframes fadeUp { to {opacity: 1; transform: translateY(0);} }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Novaolia Sunflower Oils</h1>
+    <p>From the Heart of Ukraine to Your Market – Premium Sunflower Oil, Delivered with Excellence</p>
+</header>
+
+<nav>
+    <a href="#products">Products</a>
+    <a href="#packaging">Packaging</a>
+    <a href="#logistics">Logistics</a>
+    <a href="#partnerships">Partnerships</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="flex">
+        <div class="box">
+            <img src="drums.jpg" alt="Sunflower Oil Drums">
+            <h3>Bulk Sunflower Oil</h3>
+            <p>Available in steel drums, IBC tanks, flexitanks, and ISO tanks for large-scale export.</p>
+        </div>
+        <div class="box">
+            <img src="bottles.jpg" alt="Consumer Bottled Oil">
+            <h3>Consumer Packaged Oil</h3>
+            <p>PET bottles (0.5L – 5L), jerry cans, and tin cans for retail distribution.</p>
+        </div>
+        <div class="box">
+            <img src="seeds.jpg" alt="Sunflower Seeds">
+            <h3>Sunflower Seeds</h3>
+            <p>High-quality seeds for oil production or direct consumption, packaged for export.</p>
+        </div>
+        <div class="box">
+            <img src="crude-oil.jpg" alt="Crude Sunflower Oil">
+            <h3>Crude Sunflower Oil</h3>
+            <p>Unrefined sunflower oil for further processing or industrial use.</p>
+        </div>
+    </div>
+</section>
+
+<section id="packaging">
+    <h2>Packaging for Long-Distance Export</h2>
+    <p>We provide secure, durable packaging designed to maintain product quality during long-distance transport by road, rail, and sea...</p>
+    <ul>
+        <li>Steel/HDPE Drums (190–210L)</li>
+        <li>IBC Tanks (1,000L)</li>
+        <li>Flexitanks (20,000–24,000L)</li>
+        <li>ISO Tank Containers</li>
+        <li>Sunflower Seeds in laminated bags (25kg, 50kg)</li>
+    </ul>
+</section>
+
+<section id="logistics">
+    <h2>Logistics & Shipping Routes</h2>
+    <p>We offer integrated transport solutions for efficient global delivery...</p>
+    <ul>
+        <li>Road Transport – Tanker trucks and container transport across Ukraine and neighboring EU countries.</li>
+        <li>Rail Freight – Bulk shipments via railway tank cars and containers.</li>
+        <li>Sea Freight – Shipments via Black Sea ports (Odessa, Chornomorsk, Mykolaiv).</li>
+        <li>Intermodal Transport – Combined road, rail, and sea solutions.</li>
+    </ul>
+</section>
+
+<section id="partnerships">
+    <h2>Partnerships & Investments</h2>
+    <p>We welcome strategic partners, investors, and distributors who share our vision...</p>
+    <ul>
+        <li>Private Label Oil Distribution</li>
+        <li>Exclusive Regional Supply Agreements</li>
+        <li>Equity Investment in Production Expansion</li>
+        <li>Research & Development Collaborations</li>
+    </ul>
+</section>
+
+<section class="cta">
+    <h2>Interactive Services</h2>
+    <p>Ready to grow your business with Novaolia? Choose your option below:</p>
+    <button onclick="window.location.href='quote.html'">Get a Quote</button>
+    <button onclick="window.location.href='private-label.html'">Request Private Labeling</button>
+</section>
+
+<footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: export@novaolia.com | Phone: +380-XX-XXX-XXXX</p>
+    <p>Address: Industrial Park, Kyiv, Ukraine</p>
+    <p><a href="#top">Back to Top</a></p>
+</footer>
+
+<script>
+    // Fade-in effect for sections as they scroll into view
+    const sections = document.querySelectorAll('section');
+    const options = { threshold: 0.2 };
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting){
+                entry.target.style.animation = "fadeUp 1s forwards";
+            }
+        });
+    }, options);
+    sections.forEach(section => { observer.observe(section); });
+</script>
+
+</body>
+</html>
