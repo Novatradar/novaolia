@@ -46,6 +46,11 @@ export default function Home() {
               </Link>
             </li>
             <li>
+              <Link href="#partnerships" className="text-base font-light mr-8">
+                Partnership
+              </Link>
+            </li>
+            <li>
               <Link href="#contact" className="text-base font-light mr-8">
                 Contact Us
               </Link>
@@ -77,13 +82,14 @@ export default function Home() {
             />
           </div>
           <div>
-            <h2 className="text-5xl leading-[1.6] mb-3 font-bold">
-              Premium Sunflower Oil & Seeds
+            <h2 className="text-4xl leading-[1.6] mb-2 font-bold">
+              Premium Sunflower <br /> Oil & Seeds
             </h2>
-            <p className="text-lg leading-loose">
-              Potter ipsum wand elf parchment wingardium. Squid prefect&apos;s
-              dog wand second. Vulture-hat giant not elemental locomotor suits
-              fantastic are. Three fritters letters other last.
+            <p className="text-base leading-loose">
+              We specialize in the production and export of high-quality
+              sunflower oil and seeds, sourced from the best farms in Ukraine.
+              Our products are known for their purity, taste, and nutritional
+              value, making them ideal for both industrial and consumer use.
             </p>
             <ul className="mt-5 mb-10 bg-[#FFFDF4] flex flex-col gap-10 rounded-[17px] p-6">
               <li className="flex items-center gap-3">
@@ -169,7 +175,7 @@ export default function Home() {
                 for large-scale export.
               </p>
               <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
-                Packaging Details
+                View Details
               </button>
             </div>
           </div>
@@ -191,7 +197,7 @@ export default function Home() {
                 distribution.
               </p>
               <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
-                Packaging Details
+                View Details
               </button>
             </div>
           </div>
@@ -213,7 +219,7 @@ export default function Home() {
                 packaged for export.
               </p>
               <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
-                Packaging Details
+                View Details
               </button>
             </div>
           </div>
@@ -238,7 +244,7 @@ export default function Home() {
                 fantastic are. Three fritters letters other last. */}
               </p>
               <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
-                Packaging Details
+                View Details
               </button>
             </div>
           </div>
@@ -246,11 +252,13 @@ export default function Home() {
       </section>
       <section className="py-20 px-20 max-w-[1300px] mx-auto" id="partnerships">
         <div className="text-center mb-10 max-w-[1000px] mx-auto">
-          <h2 className="text-4xl mb-2 font-semibold">Partnerships</h2>
+          <h2 className="text-4xl mb-2 font-semibold">
+            Partnership and Investments
+          </h2>
           <p className="text-base leading-loose w-[70%] mx-auto font-light mb-4">
-            Potter ipsum wand elf parchment wingardium. Squid prefect&apos;s dog
-            wand second. Vulture-hat giant not elemental locomotor suits
-            fantastic are. Three fritters letters other last.
+            We&apos;re open to exploring new horizons and building impactful
+            collaborations. Whether you want to partner, invest, or work with us
+            — we’d love to hear from you.
           </p>
         </div>
         <div className="grid grid-cols-3 gap-10">
