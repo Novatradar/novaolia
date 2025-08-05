@@ -21,7 +21,7 @@ const PackagingPage = () => {
       <div className="grid grid-cols-2 gap-24">
         <div className="pl-10">
           <div className="flex items-center gap-1 mb-4">
-            <h3 className="text-base text-primary font-semibold">//</h3>
+            <h3 className="text-base text-primary font-semibold">{'//'}</h3>
             <h3 className="text-base font-semibold uppercase">Our Expertise</h3>
           </div>
           <h2 className="text-5xl mb-2 font-medium leading-[1.2]">
