@@ -36,17 +36,17 @@ export default function Home() {
               </Link>
             </li>
             <li>
-              <Link href="/" className="text-base font-light mr-8">
+              <Link href="#about" className="text-base font-light mr-8">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="/" className="text-base font-light mr-8">
+              <Link href="#products" className="text-base font-light mr-8">
                 Products
               </Link>
             </li>
             <li>
-              <Link href="/" className="text-base font-light mr-8">
+              <Link href="#contact" className="text-base font-light mr-8">
                 Contact Us
               </Link>
             </li>
@@ -61,8 +61,10 @@ export default function Home() {
           </button>
         </div>
       </nav>
-      <HeroSlider />
-      <div className="section bg-white px-20 pt-20">
+      <div id="home">
+        <HeroSlider />
+      </div>
+      <div className="section bg-white px-20 pt-20" id="about">
         <div className="grid grid-cols-2 gap-10">
           <div>
             <Image
@@ -124,7 +126,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <section className="bg-[#F8F8F8] pb-32 mt-10 relative">
+      <section className="bg-[#F8F8F8] pb-32 mt-10 relative" id="products">
         <div className="absolute -top-20 left-0">
           <Image
             src={FlowerImg}
@@ -242,7 +244,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-20 px-20 max-w-[1300px] mx-auto">
+      <section className="py-20 px-20 max-w-[1300px] mx-auto" id="partnerships">
         <div className="text-center mb-10 max-w-[1000px] mx-auto">
           <h2 className="text-4xl mb-2 font-semibold">Partnerships</h2>
           <p className="text-base leading-loose w-[70%] mx-auto font-light mb-4">
@@ -331,7 +333,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="px-10">
+      <section className="px-10" id="contact">
         <section className="contact-section rounded-[22px] max-w-[1500px] mx-auto mb-14">
           <div className="max-w-[1100px] mx-auto grid grid-cols-2 gap-28 items-end py-20">
             <div>
