@@ -188,6 +188,41 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="px-5 md:px-20">
+            <div className="flex flex-col md:flex-row gap-10 md:gap-32 mt-0 md:mt-16 pt-0 md:pt-5">
+              <div>
+                <h4 className="text-lg font-bold mb-4">
+                  Fatty Acid Profile (Average Composition)
+                </h4>
+                <ul className="flex flex-col gap-5">
+                  <li className="text-base">
+                    Linoleic Acid (Omega-6): 52 - 78%
+                  </li>
+                  <li className="text-base">Oleic Acid (Omega-9): 52 - 78%</li>
+                  <li className="text-base">Palmitic Acid: 5 - 7%</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-lg font-bold mb-4">
+                  Nutritional Value (per 100g)
+                </h4>
+                <ul className="flex flex-col gap-5">
+                  <li className="text-base">Energy: 884kcal</li>
+                  <li className="text-base">
+                    Total Fat: (100g) Saturated Fat: 10-12g
+                  </li>
+                  <li className="text-base">
+                    Total Fat: (100g) UnSaturated Fat: 88-90g
+                  </li>
+                  <li className="text-base">Cholesterol: 0mg</li>
+                  <li className="text-base">Vitamin E: 40 - 60mg</li>
+                </ul>
+              </div>
+            </div>
+            <p className="text-base block mt-10">
+              Shelf Life: 12 - 18 months under cool, dry storage conditions.
+            </p>
+          </div>
         </section>
         <section className="py-20 px-5 md:px-20 " id="partnerships">
           <div className="text-center mb-10 max-w-[1000px] mx-auto">
