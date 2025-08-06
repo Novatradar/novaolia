@@ -39,7 +39,7 @@ const PackagingPage = () => {
                 Our Expertise
               </h3>
             </div>
-            <h2 className="text-3xl md:text-4xl w-[80%] mb-2 font-medium leading-[1.2]">
+            <h2 className="text-2xl md:text-4xl w-[80%] mb-2 font-medium leading-[1.2]">
               Packaging for Long-Distance Export
             </h2>
             {/* <h2 className="text-3xl md:text-5xl mb-2 font-medium leading-[1.2]">
@@ -163,7 +163,7 @@ const PackagingPage = () => {
             <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
               <FaTruckFront className="text-white text-2xl" />
             </div>
-            <h4 className="text-2xl leading-[1.6] mb-2">Road Transport</h4>
+            <h4 className="text-xl leading-[1.6] mb-2">Road Transport</h4>
             <p className="text-sm font-light leading-loose">
               For deliveries within Ukraine and neighboring European countries,
               using certified food-grade tanker trucks and refrigerated trucks
@@ -174,7 +174,7 @@ const PackagingPage = () => {
             <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
               <MdDirectionsRailway className="text-white text-3xl" />
             </div>
-            <h4 className="text-2xl leading-[1.6] mb-2">Rail Transport</h4>
+            <h4 className="text-xl leading-[1.6] mb-2">Rail Transport</h4>
             <p className="text-sm font-light leading-loose">
               Bulk shipments via railway tank cars and containerized cargo,
               ensuring efficient inland transport to ports and landlocked
@@ -185,7 +185,7 @@ const PackagingPage = () => {
             <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
               <FaShip className="text-white text-3xl" />
             </div>
-            <h4 className="text-2xl leading-[1.6] mb-2">Sea Freight</h4>
+            <h4 className="text-xl leading-[1.6] mb-2">Sea Freight</h4>
             <p className="text-sm font-light leading-loose">
               Worldwide shipping from Ukrainian Black Sea ports (Odessa,
               Chornomorsk, Mykolaiv) using containerized cargo, flexitanks and
@@ -196,7 +196,7 @@ const PackagingPage = () => {
             <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
               <MdOutlineMoveDown className="text-white text-2xl" />
             </div>
-            <h4 className="text-2xl leading-[1.6] mb-2">
+            <h4 className="text-xl leading-[1.6] mb-2">
               Intermodal Solutions
             </h4>
             <p className="text-sm font-light leading-loose">

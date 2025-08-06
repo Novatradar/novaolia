@@ -51,7 +51,7 @@ const ServicesPage = () => {
                   className="h-[30px] w-auto object-cover"
                 />
               </div>
-              <h4 className="text-2xl leading-[1.6] mb-2">
+              <h4 className="text-xl leading-[1.6] mb-2">
                 Private Labelling & Custom Packaging
               </h4>
               <p className="text-sm font-light leading-loose">
@@ -70,7 +70,7 @@ const ServicesPage = () => {
                   className="h-[30px] w-auto object-cover"
                 />
               </div>
-              <h4 className="text-2xl leading-[1.6] mb-2">
+              <h4 className="text-xl leading-[1.6] mb-2">
                 Wholesale & Export Solutions
               </h4>
               <p className="text-sm font-light leading-loose">
@@ -89,7 +89,7 @@ const ServicesPage = () => {
                   className="h-[30px] w-auto object-cover"
                 />
               </div>
-              <h4 className="text-2xl leading-[1.6] mb-2">
+              <h4 className="text-xl leading-[1.6] mb-2">
                 Quality Assurance & Certificate Support
               </h4>
               <p className="text-sm font-light leading-loose">
@@ -108,7 +108,7 @@ const ServicesPage = () => {
                   className="h-[30px] w-auto object-cover"
                 />
               </div>
-              <h4 className="text-2xl leading-[1.6] mb-2">
+              <h4 className="text-xl leading-[1.6] mb-2">
                 Technical & Product Customization
               </h4>
               <p className="text-sm font-light leading-loose">
