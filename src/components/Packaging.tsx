@@ -153,7 +153,7 @@ const PackagingPage = () => {
         </div>
       </section>
       <section className="-mt-9 md:-mt-14 mb-20 px-5 md:px-20">
-        <h4 className="text-2xl md:text-4xl md:w-[75%] mb-16 block relative leading-relaxed md:leading-[1.4]">
+        <h4 className="text-2xl md:text-4xl md:w-[75%] mb-16 block relative leading-relaxed md:leading-[1.4] text-center md:text-left">
           We provide flexible logistics solutions to meet the diverse needs of
           our global customers as well as real-time shipment tracking for
           transparency with the following:
