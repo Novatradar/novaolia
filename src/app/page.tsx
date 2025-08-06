@@ -8,6 +8,7 @@ import MainImg from "@/images/main.png";
 import LocationImg from "@/images/location.svg";
 import MailImg from "@/images/mail.svg";
 import PhoneImg from "@/images/phone.svg";
+import { BsTelegram } from "react-icons/bs";
 
 import FlowerImg from "@/images/flower.png";
 
@@ -65,9 +66,7 @@ export default function Home() {
         <div id="shipping">
           <PackagingPage />
         </div>
-        <section
-          className="bg-[#F8F8F8] pb-10 md:pb-32 mt-5 relative"
-        >
+        <section className="bg-[#F8F8F8] pb-10 md:pb-32 mt-5 relative">
           <div className="absolute -top-10 md:-top-20 left-0">
             <Image
               src={FlowerImg}
@@ -190,10 +189,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section
-          className="py-20 px-5 md:px-20 max-w-[1300px] mx-auto"
-          id="partnerships"
-        >
+        <section className="py-20 px-5 md:px-20 " id="partnerships">
           <div className="text-center mb-10 max-w-[1000px] mx-auto">
             <h2 className="text-3xl md:text-4xl mb-2 font-semibold leading-normal">
               Partnership and Investments
@@ -204,8 +200,8 @@ export default function Home() {
               us — we&apos;d love to hear from you.
             </p>
           </div>
-          <div className="flex flex-col md:grid grid-cols-3 gap-5 md:gap-10">
-            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-14 px-10">
+          <div className="flex flex-col md:grid grid-cols-4 gap-5 md:gap-10">
+            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-10">
               <div className="size-[54px] rounded-[13px] bg-[#FFF9EE] mb-8 flex items-center justify-center">
                 <Image
                   src={PhoneImg}
@@ -216,9 +212,9 @@ export default function Home() {
                   className="h-[20px] w-[20px] object-cover"
                 />
               </div>
-              <h4 className="text-lg font-bold mb-3">Call Or WhatsApp</h4>
+              <h4 className="text-base font-bold mb-3">Call Or WhatsApp</h4>
               <ul>
-                <li className="mb-3">
+                <li className="mb-0">
                   <Link
                     href="https://wa.me/+380971200700?text=Hello%20there.%20I%20am%20from%20the%20site"
                     className="text-sm text-[#696969] font-light"
@@ -228,7 +224,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-14 px-10">
+            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-10">
               <div className="size-[54px] rounded-[13px] bg-[#EEEEFF] mb-8 flex items-center justify-center">
                 <Image
                   src={MailImg}
@@ -239,7 +235,7 @@ export default function Home() {
                   className="h-[30px] w-[30px] object-cover"
                 />
               </div>
-              <h4 className="text-lg font-bold mb-3">Send Us an Email</h4>
+              <h4 className="text-base font-bold mb-3">Send Us an Email</h4>
               <ul>
                 <li className="mb-3">
                   <Link
@@ -251,7 +247,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-14 px-10">
+            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-10">
               <div className="size-[54px] rounded-[13px] bg-[#FFEEF9] mb-8 flex items-center justify-center">
                 <Image
                   src={LocationImg}
@@ -262,11 +258,24 @@ export default function Home() {
                   className="h-[30px] w-[30px] object-cover"
                 />
               </div>
-              <h4 className="text-lg font-bold mb-3">Address</h4>
+              <h4 className="text-base font-bold mb-3">Address</h4>
               <ul>
-                <li className="mb-3">
+                <li className="mb-0">
                   <Link href="#" className="text-sm text-[#696969] font-light">
                     , Хмільник, Vinnytsia Oblast, 22000
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-10">
+              <div className="size-[54px] rounded-[13px] bg-[#FFF9EE] mb-8 flex items-center justify-center">
+                <BsTelegram className="text-2xl text-[#FFB705]" />
+              </div>
+              <h4 className="text-base font-bold mb-3">Telegram</h4>
+              <ul>
+                <li className="mb-0">
+                  <Link href="#" className="text-sm text-[#696969] font-light">
+                    @novaolia
                   </Link>
                 </li>
               </ul>

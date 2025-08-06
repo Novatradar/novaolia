@@ -82,7 +82,7 @@ const PackagingPage = () => {
           </Link> */}
           </div>
           <div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="flex flex-col md:grid grid-cols-2 gap-4">
               <div className="shadow h-max">
                 <div className="bg-primary h-2 w-full"></div>
                 <div className="px-4 py-3">
@@ -125,7 +125,7 @@ const PackagingPage = () => {
                   </ul>
                 </div>
               </div>
-              <div className="shadow h-max -mt-48">
+              <div className="shadow h-max md:-mt-48">
                 <div className="bg-primary h-2 w-full"></div>
                 <div className="px-4 py-3">
                   <h4 className="text-lg font-medium mb-3">
@@ -152,13 +152,13 @@ const PackagingPage = () => {
           </div>
         </div>
       </section>
-      <section className="-mt-14 mb-20 px-5 md:px-20">
-        <h4 className="text-4xl w-[75%] mb-16 block relative leading-[1.4]">
+      <section className="-mt-9 md:-mt-14 mb-20 px-5 md:px-20">
+        <h4 className="text-2xl md:text-4xl md:w-[75%] mb-16 block relative leading-relaxed md:leading-[1.4]">
           We provide flexible logistics solutions to meet the diverse needs of
           our global customers as well as real-time shipment tracking for
           transparency with the following:
         </h4>
-        <div className="flex flex-col md:grid grid-cols-4 gap-10">
+        <div className="flex flex-col md:grid grid-cols-4 gap-10 text-center md:text-left">
           <div>
             <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
               <FaTruckFront className="text-white text-2xl" />
