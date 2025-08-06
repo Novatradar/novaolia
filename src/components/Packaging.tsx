@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const PackagingPage = () => {
   return (
-    <section className="pb-20 pt-20 px-20 relative" id="products">
+    <section className="pb-20 pt-20 px-5 md:px-20 relative" id="products">
       <div className="absolute top-[40%] right-0">
         <Image
           src={FlowerImg}
@@ -15,16 +15,16 @@ const PackagingPage = () => {
           width={1000}
           height={1000}
           quality={100}
-          className="h-full w-full object-cover rounded-[28px]"
+          className="h-[5rem] md:h-full w-auto md:w-full object-cover rounded-[28px]"
         />
       </div>
-      <div className="grid grid-cols-2 gap-24">
-        <div className="pl-10">
+      <div className="flex flex-col md:grid grid-cols-2 gap-14 md:gap-24">
+        <div className="md:pl-10">
           <div className="flex items-center gap-1 mb-4">
-            <h3 className="text-base text-primary font-semibold">{'//'}</h3>
-            <h3 className="text-base font-semibold uppercase">Our Expertise</h3>
+            <h3 className="text-sm md:text-base text-primary font-semibold">{'//'}</h3>
+            <h3 className="text-sm md:text-base font-semibold uppercase">Our Expertise</h3>
           </div>
-          <h2 className="text-5xl mb-2 font-medium leading-[1.2]">
+          <h2 className="text-3xl md:text-5xl mb-2 font-medium leading-[1.2]">
             Exporting, Shipping & <br />{" "}
             <span className="text-primary">Logistics</span>
           </h2>

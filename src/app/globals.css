@@ -86,3 +86,29 @@ body {
   position: relative;
   overflow: hidden;
 }
+.hero-sect {
+  background-size: cover;
+  background-position: center;
+}
+
+
+.ant-drawer-body {
+  padding: 0px !important;
+  font-family: var(--font-syne), sans-serif !important;
+}
+
+.ant-drawer-content {
+  width: 100% !important;
+}
+
+.ant-drawer-content-wrapper {
+  width: 100% !important;
+}
+
+.ant-drawer-header {
+  display: none !important;
+}
+
+.menu-nav a {
+  color: #363636;
+}

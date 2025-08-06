@@ -9,7 +9,7 @@ import Link from "next/link";
 const ServicesPage = () => {
   return (
     <section
-      className="services pb-20 pt-20 mt-20 px-20 relative"
+      className="services pb-20 pt-20 mt-20 px-5 md:px-20 relative"
       id="products"
     >
       <div className="absolute -top-20 left-0">
@@ -22,13 +22,13 @@ const ServicesPage = () => {
           className="h-full w-full object-cover rounded-[28px] rotate-flower"
         />
       </div>
-      <div className="grid grid-cols-2 gap-24">
-        <div className="pl-10">
-          <div className="flex items-center gap-1 mb-4">
+      <div className="flex flex-col md:grid grid-cols-2 gap-14 md:gap-24 text-center md:text-left">
+        <div className="md:pl-10">
+          <div className="flex items-center justify-center md:justify-normal gap-1 mb-4">
             <h3 className="text-base text-primary font-semibold">{'//'}</h3>
             <h3 className="text-base font-semibold uppercase">Services</h3>
           </div>
-          <h2 className="text-5xl w-[60%] mb-4 font-medium leading-[1.2]">
+          <h2 className="text-3xl md:text-5xl md:w-[60%] mb-2 md:mb-4 font-medium leading-[1.2]">
             These are our list of services
           </h2>
           <Link
@@ -39,9 +39,9 @@ const ServicesPage = () => {
           </Link>
         </div>
         <div>
-          <div className="grid grid-cols-2 gap-10">
+          <div className="flex flex-col md:grid grid-cols-2 gap-10">
             <div>
-              <div className="size-[70px] rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
                 <Image
                   src={DotImg}
                   alt="dot"
@@ -60,7 +60,7 @@ const ServicesPage = () => {
               </p>
             </div>
             <div>
-              <div className="size-[70px] rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
                 <Image
                   src={MoneyImg}
                   alt="money"
@@ -79,7 +79,7 @@ const ServicesPage = () => {
               </p>
             </div>
             <div>
-              <div className="size-[70px] rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
                 <Image
                   src={DiamondImg}
                   alt="diamond"
@@ -98,7 +98,7 @@ const ServicesPage = () => {
               </p>
             </div>
             <div>
-              <div className="size-[70px] rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
                 <Image
                   src={DrumImg}
                   alt="drum"
