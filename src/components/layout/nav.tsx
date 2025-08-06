@@ -41,7 +41,7 @@ const Navigation = () => {
               </Link>
             </li>
             <li>
-              <Link href="/#products" className="text-sm font-medium">
+              <Link href="/#product" className="text-sm font-medium">
                 Products
               </Link>
             </li>
@@ -58,11 +58,11 @@ const Navigation = () => {
           </ul>
         </div>
         <div className="hidden md:block">
-          <button className="text-sm bg-primary border-2 border-solid border-primary text-black px-8 py-3 rounded-lg">
+          <Link href="/#contact" className="text-sm bg-primary border-2 border-solid border-primary text-black px-8 py-3 rounded-lg">
             Get a Quote
-          </button>
+          </Link>
         </div>
-        <div>
+        <div className="block md:hidden">
           <HiOutlineMenuAlt3 className="text-4xl" onClick={toggleDrawer} />
         </div>
       </nav>

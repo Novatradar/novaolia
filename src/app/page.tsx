@@ -67,7 +67,6 @@ export default function Home() {
         </div>
         <section
           className="bg-[#F8F8F8] pb-10 md:pb-32 mt-5 relative"
-          id="products"
         >
           <div className="absolute -top-10 md:-top-20 left-0">
             <Image
@@ -89,7 +88,7 @@ export default function Home() {
               className="h-[8rem] md:h-full w-auto md:w-full object-cover rounded-[28px]"
             />
           </div>
-          <div className="text-center pt-20 pb-14">
+          <div id="product" className="text-center pt-20 pb-14">
             <h2 className="text-3xl md:text-4xl font-semibold">Our Products</h2>
           </div>
           <div className="flex flex-col md:grid grid-cols-2 gap-6 px-5 md:px-20">
@@ -263,7 +262,7 @@ export default function Home() {
                   className="h-[30px] w-[30px] object-cover"
                 />
               </div>
-              <h4 className="text-lg font-bold mb-3">Visit Us</h4>
+              <h4 className="text-lg font-bold mb-3">Address</h4>
               <ul>
                 <li className="mb-3">
                   <Link href="#" className="text-sm text-[#696969] font-light">
@@ -279,7 +278,7 @@ export default function Home() {
             <div className="max-w-[1100px] mx-auto flex flex-col md:grid grid-cols-2 gap-28 items-end py-20 px-5 md:px-0">
               <div>
                 <h2 className="text-3xl md:text-6xl md:w-[70%] font-syne mb-5">
-                  Send us a message
+                  Reach out
                 </h2>
                 <form action="">
                   <div className="form-group mb-4">
