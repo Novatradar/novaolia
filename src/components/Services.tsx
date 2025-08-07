@@ -25,10 +25,10 @@ const ServicesPage = () => {
       <div className="flex flex-col md:grid grid-cols-2 gap-14 md:gap-24 text-center md:text-left">
         <div className="md:pl-10">
           <div className="flex items-center justify-center md:justify-normal gap-1 mb-4">
-            <h3 className="text-base text-primary font-semibold">{'//'}</h3>
-            <h3 className="text-base font-semibold uppercase">Services</h3>
+            <h3 className="text-sm md:text-base text-primary font-semibold">{'//'}</h3>
+            <h3 className="text-sm md:text-base font-semibold uppercase">Services</h3>
           </div>
-          <h2 className="text-3xl md:text-5xl md:w-[60%] mb-2 md:mb-4 font-medium leading-[1.2]">
+          <h2 className="text-2xl md:text-5xl md:w-[60%] mb-2 md:mb-4 font-medium leading-[1.2]">
             These are our list of services
           </h2>
           <Link
@@ -41,17 +41,17 @@ const ServicesPage = () => {
         <div>
           <div className="flex flex-col md:grid grid-cols-2 gap-10">
             <div>
-              <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <div className="size-[50px] md:size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
                 <Image
                   src={DotImg}
                   alt="dot"
                   width={1000}
                   height={1000}
                   quality={100}
-                  className="h-[30px] w-auto object-cover"
+                  className="h-[20px] md:h-[30px] w-auto object-cover"
                 />
               </div>
-              <h4 className="text-xl leading-[1.6] mb-2">
+              <h4 className="text-lg md:text-xl leading-[1.6] mb-2">
                 Private Labelling & Custom Packaging
               </h4>
               <p className="text-sm font-light leading-loose">
@@ -60,17 +60,17 @@ const ServicesPage = () => {
               </p>
             </div>
             <div>
-              <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <div className="size-[50px] md:size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
                 <Image
                   src={MoneyImg}
                   alt="money"
                   width={1000}
                   height={1000}
                   quality={100}
-                  className="h-[30px] w-auto object-cover"
+                  className="h-[20px] md:h-[30px] w-auto object-cover"
                 />
               </div>
-              <h4 className="text-xl leading-[1.6] mb-2">
+              <h4 className="text-lg md:text-xl leading-[1.6] mb-2">
                 Wholesale & Export Solutions
               </h4>
               <p className="text-sm font-light leading-loose">
@@ -79,17 +79,17 @@ const ServicesPage = () => {
               </p>
             </div>
             <div>
-              <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <div className="size-[50px] md:size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
                 <Image
                   src={DiamondImg}
                   alt="diamond"
                   width={1000}
                   height={1000}
                   quality={100}
-                  className="h-[30px] w-auto object-cover"
+                  className="h-[20px] md:h-[30px] w-auto object-cover"
                 />
               </div>
-              <h4 className="text-xl leading-[1.6] mb-2">
+              <h4 className="text-lg md:text-xl leading-[1.6] mb-2">
                 Quality Assurance & Certificate Support
               </h4>
               <p className="text-sm font-light leading-loose">
@@ -98,17 +98,17 @@ const ServicesPage = () => {
               </p>
             </div>
             <div>
-              <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <div className="size-[50px] md:size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
                 <Image
                   src={DrumImg}
                   alt="drum"
                   width={1000}
                   height={1000}
                   quality={100}
-                  className="h-[30px] w-auto object-cover"
+                  className="h-[20px] md:h-[30px] w-auto object-cover"
                 />
               </div>
-              <h4 className="text-xl leading-[1.6] mb-2">
+              <h4 className="text-lg md:text-xl leading-[1.6] mb-2">
                 Technical & Product Customization
               </h4>
               <p className="text-sm font-light leading-loose">

@@ -30,7 +30,7 @@ const PackagingPage = () => {
             className="h-[5rem] md:h-full w-auto md:w-full object-cover rounded-[28px]"
           />
         </div>
-        <div className="flex flex-col md:grid grid-cols-2 gap-14 md:gap-24">
+        <div className="flex flex-col md:grid grid-cols-2 gap-10 md:gap-24">
           <div className="">
             <div className="flex items-center gap-1 mb-4">
               <h3 className="text-sm md:text-base text-primary font-semibold">
@@ -40,10 +40,10 @@ const PackagingPage = () => {
                 Our Expertise
               </h3>
             </div>
-            <h2 className="text-2xl md:text-4xl w-[80%] mb-2 font-medium leading-[1.2]">
+            <h2 className="text-2xl md:text-4xl w-[80%] mb-2 font-medium leading-[1.6] md:leading-[1.2]">
               Packaging for Long-Distance Export
             </h2>
-            <p className="text-base leading-loose md:leading-loose mb-7">
+            <p className="text-sm md:text-base leading-loose md:leading-loose mb-7">
               We offer packaging solutions designed for long-distance road,
               rail, air and sea transport, ensuring product safety and freshness
               upon delivery. Packaging for long-dinstance export by road, ship
@@ -61,7 +61,7 @@ const PackagingPage = () => {
               <div className="shadow h-max">
                 <div className="bg-primary h-2 w-full"></div>
                 <div className="px-4 py-3">
-                  <h4 className="text-lg font-medium mb-3">
+                  <h4 className="text-base md:text-lg font-medium mb-1 md:mb-3">
                     Consumer Packaging:
                   </h4>
                   <p className="text-sm leading-loose">
@@ -73,7 +73,7 @@ const PackagingPage = () => {
               <div className="shadow">
                 <div className="bg-primary h-2 w-full"></div>
                 <div className="px-4 py-3">
-                  <h4 className="text-lg font-medium mb-3">Bulk Packaging:</h4>
+                  <h4 className="text-base md:text-lg font-medium mb-1 md:mb-3">Bulk Packaging:</h4>
                   <ul className="flex flex-col gap-3">
                     <li className="text-sm leading-loose">
                       <span className="font-medium">
@@ -103,7 +103,7 @@ const PackagingPage = () => {
               <div className="shadow h-max md:-mt-48">
                 <div className="bg-primary h-2 w-full"></div>
                 <div className="px-4 py-3">
-                  <h4 className="text-lg font-medium mb-3">
+                  <h4 className="text-base md:text-lg font-medium mb-1 md:mb-3">
                     Export Documentation:
                   </h4>
                   <p className="text-sm leading-loose">
@@ -116,7 +116,7 @@ const PackagingPage = () => {
               <div className="shadow h-max">
                 <div className="bg-primary h-2 w-full"></div>
                 <div className="px-4 py-3">
-                  <h4 className="text-lg font-medium mb-3">Sunflower Seeds:</h4>
+                  <h4 className="text-base md:text-lg font-medium mb-1 md:mb-3">Sunflower Seeds:</h4>
                   <p className="text-sm leading-loose">
                     Laminated polypropylene bags(25kg,50kg) with moisture-proof
                     liners
@@ -128,17 +128,17 @@ const PackagingPage = () => {
         </div>
       </section>
       <section className="-mt-9 md:-mt-14 mb-20 px-5 md:px-20">
-        <h4 className="text-2xl md:text-4xl md:w-[75%] mb-16 block relative leading-relaxed md:leading-[1.4] text-center md:text-left">
+        <h4 className="text-xl md:text-4xl md:w-[75%] mb-10 md:mb-16 block relative leading-loose md:leading-[1.4] text-center md:text-left">
           We provide flexible logistics solutions to meet the diverse needs of
           our global customers as well as real-time shipment tracking for
           transparency with the following:
         </h4>
         <div className="flex flex-col md:grid grid-cols-4 gap-10 text-center md:text-left">
           <div>
-            <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
-              <FaTruckFront className="text-white text-2xl" />
+            <div className="size-[50px] md:size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <FaTruckFront className="text-white text-xl md:text-2xl" />
             </div>
-            <h4 className="text-xl leading-[1.6] mb-2">Road Transport</h4>
+            <h4 className="text-lg md:text-xl leading-[1.6] mb-2">Road Transport</h4>
             <p className="text-sm font-light leading-loose">
               For deliveries within Ukraine and neighboring European countries,
               using certified food-grade tanker trucks and refrigerated trucks
@@ -146,10 +146,10 @@ const PackagingPage = () => {
             </p>
           </div>
           <div>
-            <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
-              <MdDirectionsRailway className="text-white text-3xl" />
+            <div className="size-[50px] md:size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <MdDirectionsRailway className="text-white text-2xl md:text-3xl" />
             </div>
-            <h4 className="text-xl leading-[1.6] mb-2">Rail Transport</h4>
+            <h4 className="text-lg md:text-xl leading-[1.6] mb-2">Rail Transport</h4>
             <p className="text-sm font-light leading-loose">
               Bulk shipments via railway tank cars and containerized cargo,
               ensuring efficient inland transport to ports and landlocked
@@ -157,10 +157,10 @@ const PackagingPage = () => {
             </p>
           </div>
           <div>
-            <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
-              <FaShip className="text-white text-3xl" />
+            <div className="size-[50px] md:size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <FaShip className="text-white text-2xl md:text-3xl" />
             </div>
-            <h4 className="text-xl leading-[1.6] mb-2">Sea Freight</h4>
+            <h4 className="text-lg md:text-xl leading-[1.6] mb-2">Sea Freight</h4>
             <p className="text-sm font-light leading-loose">
               Worldwide shipping from Ukrainian Black Sea ports (Odessa,
               Chornomorsk, Mykolaiv) using containerized cargo, flexitanks and
@@ -168,10 +168,10 @@ const PackagingPage = () => {
             </p>
           </div>
           <div>
-            <div className="size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
-              <MdOutlineMoveDown className="text-white text-2xl" />
+            <div className="size-[50px] md:size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
+              <MdOutlineMoveDown className="text-white text-xl md:text-2xl" />
             </div>
-            <h4 className="text-xl leading-[1.6] mb-2">
+            <h4 className="text-lg md:text-xl leading-[1.6] mb-2">
               Intermodal Solutions
             </h4>
             <p className="text-sm font-light leading-loose">

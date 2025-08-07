@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Outfit, Syne } from "next/font/google";
 import "./globals.css";
 import { Work_Sans, PT_Serif } from "next/font/google";
+import TawkLayout from "./document";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,9 +40,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${syneFont.variable}`}
-      >
+      <body className={`${syneFont.variable}`}>
+        <TawkLayout />
         {children}
       </body>
     </html>
