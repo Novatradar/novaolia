@@ -258,7 +258,7 @@ export default function Home() {
                   className="h-[20rem] object-center w-[90%] md:w-full mx-auto object-cover rounded-[28px]"
                 />
               </div>
-              <div className="md:bg-white border-[.65px] border-[#F3F3F3] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
+              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
                 <h4 className="text-lg md:text-2xl font-bold mb-1 md:mb-4">
                   Crude Sunflower Oil
                 </h4>
