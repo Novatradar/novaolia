@@ -16,6 +16,7 @@ import { FaCcPaypal } from "react-icons/fa6";
 import { FaCcMastercard } from "react-icons/fa";
 import { IoCardOutline } from "react-icons/io5";
 
+
 const PackagingPage = () => {
   return (
     <>
