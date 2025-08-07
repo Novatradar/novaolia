@@ -67,15 +67,7 @@ const ServicesPage = () => {
             </div>
             <div>
               <div className="size-[50px] md:size-[70px] mx-auto md:mx-0 rounded-full mb-4 bg-[#171717] flex items-center justify-center">
-                <RiInbox2Line className="text-white text-xl" />
-                {/* <Image
-                  src={MoneyImg}
-                  alt="money"
-                  width={1000}
-                  height={1000}
-                  quality={100}
-                  className="h-[20px] md:h-[30px] w-auto object-cover"
-                /> */}
+                <RiInbox2Line className="text-white text-xl md:text-2xl" />
               </div>
               <h4 className="text-lg md:text-xl leading-[1.6] mb-2">
                 Wholesale & Export Solutions
