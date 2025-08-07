@@ -12,6 +12,16 @@ import { BsTelegram } from "react-icons/bs";
 
 import FlowerImg from "@/images/flower.png";
 
+import ProductSeedImg from "@/images/products/seed.png";
+import ProductRefinedOilImg from "@/images/products/refined.png";
+import ProductOrganicOilImg from "@/images/products/organic.png";
+import ProductBulkOilImg from "@/images/products/bulk.png";
+import ProductSmallOilImg from "@/images/products/small.png";
+import ProductOleicOilImg from "@/images/products/oleic.png";
+import ProductPackagedOilImg from "@/images/products/packaged.png";
+import ProductBlendOilImg from "@/images/products/blend.png";
+import ProductSunBlessedOilImg from "@/images/products/sunpressed.jpeg";
+
 import "swiper/css";
 import "swiper/css/autoplay";
 import HeroSlider from "@/components/HeroSlider";
@@ -94,101 +104,193 @@ export default function Home() {
             <div className="flex flex-col md:grid grid-cols-2 gap-2 md:gap-6">
               <div>
                 <Image
-                  src={SeedImg}
+                  src={ProductRefinedOilImg}
                   alt="seed"
                   width={1000}
                   height={1000}
                   quality={100}
-                  className="h-full w-full object-cover rounded-[28px]"
+                  className="h-[20rem] object-center w-[90%] md:w-full mx-auto object-cover rounded-[28px]"
                 />
               </div>
-              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-14 px-6 text-center">
+              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
                 <h4 className="text-2xl font-bold mb-1 md:mb-4">
-                  Bulk Sunflower Oil
+                  Refined Sunflower Oil (RBDW)
                 </h4>
                 <p className="text-base leading-loose md:mb-12">
-                  Available in steel drums, IBC tanks, flexitanks, and ISO tanks
-                  for large-scale export.
+                  Neutral taste, high smoke point, ideal for frying, baking and
+                  food manufacturing
                 </p>
-                {/* <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
-                View Details
-              </button> */}
               </div>
             </div>
             <div className="flex flex-col md:grid grid-cols-2 gap-2 md:gap-6">
               <div>
                 <Image
-                  src={SeedImg}
+                  src={ProductSunBlessedOilImg}
                   alt="seed"
                   width={1000}
                   height={1000}
                   quality={100}
-                  className="h-full w-full object-cover rounded-[28px]"
+                  className="h-[20rem] object-center w-[90%] md:w-full mx-auto object-cover rounded-[28px]"
                 />
               </div>
-              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-14 px-6 text-center">
+              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
                 <h4 className="text-2xl font-bold mb-1 md:mb-4">
-                  Bulk Sunflower Oil
+                  Cold-Pressed Sunflower Oil
                 </h4>
                 <p className="text-base leading-loose md:mb-12">
-                  Available in steel drums, IBC tanks, flexitanks, and ISO tanks
-                  for large-scale export.
+                  Naturally processed, chemical-free, rich in natural
+                  antioxidants and flavor
                 </p>
-                {/* <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
-                View Details
-              </button> */}
               </div>
             </div>
             <div className="flex flex-col md:grid grid-cols-2 gap-2 md:gap-6">
               <div>
                 <Image
-                  src={SeedImg}
+                  src={ProductOrganicOilImg}
                   alt="seed"
                   width={1000}
                   height={1000}
                   quality={100}
-                  className="h-full w-full object-cover rounded-[28px]"
+                  className="h-[20rem] object-center w-[90%] md:w-full mx-auto object-cover rounded-[28px]"
                 />
               </div>
-              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-14 px-6 text-center">
+              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
                 <h4 className="text-2xl font-bold mb-1 md:mb-4">
-                  Bulk Sunflower Oil
+                  Organic Sunflower Oil
                 </h4>
                 <p className="text-base leading-loose md:mb-12">
-                  Available in steel drums, IBC tanks, flexitanks, and ISO tanks
-                  for large-scale export.
+                  Certified organic, 100% natural, suitable for health-conscious
+                  consumers
                 </p>
-                {/* <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
-                View Details
-              </button> */}
               </div>
             </div>
             <div className="flex flex-col md:grid grid-cols-2 gap-2 md:gap-6">
               <div>
                 <Image
-                  src={SeedImg}
+                  src={ProductOleicOilImg}
                   alt="seed"
                   width={1000}
                   height={1000}
                   quality={100}
-                  className="h-full w-full object-cover rounded-[28px]"
+                  className="h-[20rem] object-center w-[90%] md:w-full mx-auto object-cover rounded-[28px]"
                 />
               </div>
-              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-14 px-6 text-center">
+              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
+                <h4 className="text-2xl font-bold mb-1 md:mb-4">
+                  High Oleic Sunflower Oil
+                </h4>
+                <p className="text-base leading-loose md:mb-12">
+                  Superior oxidative stability, extended shelf life, and heart
+                  healthy properties.
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col md:grid grid-cols-2 gap-2 md:gap-6">
+              <div>
+                <Image
+                  src={ProductBlendOilImg}
+                  alt="seed"
+                  width={1000}
+                  height={1000}
+                  quality={100}
+                  className="h-[20rem] object-center w-[100%] md:w-full mx-auto object-cover rounded-[28px]"
+                />
+              </div>
+              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
+                <h4 className="text-2xl font-bold mb-1 md:mb-4">
+                  Sunflower Oil Blends
+                </h4>
+                <p className="text-base leading-loose md:mb-12">
+                  Customized oil formulations for industrial and culinary
+                  applications
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col md:grid grid-cols-2 gap-2 md:gap-6">
+              <div>
+                <Image
+                  src={ProductBulkOilImg}
+                  alt="sunflower oil"
+                  width={1000}
+                  height={1000}
+                  quality={100}
+                  className="h-[20rem] object-center w-[90%] md:w-full mx-auto object-cover rounded-[28px]"
+                />
+              </div>
+              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
                 <h4 className="text-2xl font-bold mb-1 md:mb-4">
                   Bulk Sunflower Oil
                 </h4>
                 <p className="text-base leading-loose md:mb-12">
-                  Available in steel drums, IBC tanks, flexitanks, and ISO tanks
-                  for large-scale export.
+                  Supplied in drums, IBC tanks, flexitanks, and tank trunks for
+                  large-scale buyers
                 </p>
-                {/* <button className="bg-transparent border-b-2 border-solid border-black cursor-pointer">
-                View Details
-              </button> */}
+              </div>
+            </div>
+            <div className="flex flex-col md:grid grid-cols-2 gap-2 md:gap-6">
+              <div>
+                <Image
+                  src={ProductSmallOilImg}
+                  alt="seed"
+                  width={1000}
+                  height={1000}
+                  quality={100}
+                  className="h-[20rem] object-center w-[90%] md:w-full mx-auto object-cover rounded-[28px]"
+                />
+              </div>
+              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
+                <h4 className="text-2xl font-bold mb-1 md:mb-4">
+                  Consumer Packaged Oil
+                </h4>
+                <p className="text-base leading-loose md:mb-12">
+                  PET bottles (0.5L, 1L, 3L, 5L), HDPE jerry cans, tin cans
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col md:grid grid-cols-2 gap-2 md:gap-6">
+              <div>
+                <Image
+                  src={ProductPackagedOilImg}
+                  alt="seed"
+                  width={1000}
+                  height={1000}
+                  quality={100}
+                  className="h-[20rem] object-center w-[90%] md:w-full mx-auto object-cover rounded-[28px]"
+                />
+              </div>
+              <div className="md:bg-white border-[.65px] border-[#F3F3F3] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
+                <h4 className="text-2xl font-bold mb-1 md:mb-4">
+                  Crude Sunflower Oil
+                </h4>
+                <p className="text-base leading-loose md:mb-12">
+                  Unrefined oil suitable for further processing or industrial
+                  applications
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col md:grid grid-cols-2 gap-2 md:gap-6">
+              <div>
+                <Image
+                  src={ProductSeedImg}
+                  alt="seed"
+                  width={1000}
+                  height={1000}
+                  quality={100}
+                  className="h-[20rem] object-center w-[90%] md:w-full mx-auto object-cover rounded-[28px]"
+                />
+              </div>
+              <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
+                <h4 className="text-2xl font-bold mb-1 md:mb-4">
+                  Sunflower Seeds
+                </h4>
+                <p className="text-base leading-loose md:mb-12">
+                  High-quality, export-grade sunflower seeds for oil production
+                  or food consumption
+                </p>
               </div>
             </div>
           </div>
-          <div className="px-5 md:px-20">
+          <div className="px-5 md:px-20 mt-10 md:mt-0">
             <div className="flex flex-col md:flex-row gap-10 md:gap-32 mt-0 md:mt-16 pt-0 md:pt-5">
               <div>
                 <h4 className="text-lg font-bold mb-4">

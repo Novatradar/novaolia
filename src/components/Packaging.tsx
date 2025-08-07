@@ -5,6 +5,7 @@ import CardImg from "@/images/card.png";
 import TruckImg from "@/images/truck.png";
 import Link from "next/link";
 
+
 import { FaTruckFront } from "react-icons/fa6";
 import { MdDirectionsRailway } from "react-icons/md";
 import { FaShip } from "react-icons/fa";
@@ -42,10 +43,6 @@ const PackagingPage = () => {
             <h2 className="text-2xl md:text-4xl w-[80%] mb-2 font-medium leading-[1.2]">
               Packaging for Long-Distance Export
             </h2>
-            {/* <h2 className="text-3xl md:text-5xl mb-2 font-medium leading-[1.2]">
-              Exporting, Shipping & <br />{" "}
-              <span className="text-primary">Logistics</span>
-            </h2> */}
             <p className="text-base leading-loose md:leading-loose mb-7">
               We offer packaging solutions designed for long-distance road,
               rail, air and sea transport, ensuring product safety and freshness
@@ -58,28 +55,6 @@ const PackagingPage = () => {
               <FaCcMastercard className="text-2xl" />
               <IoCardOutline className="text-2xl" />
             </div>
-            {/* <Image
-              src={CardImg}
-              alt="card"
-              width={1000}
-              height={1000}
-              quality={100}
-              className="h-auto w-[40%] mb-7 object-cover"
-            /> */}
-            {/* <Image
-              src={TruckImg}
-              alt="truck"
-              width={1000}
-              height={1000}
-              quality={100}
-              className="h-auto w-[15%] object-cover object-center"
-            /> */}
-            {/* <Link
-            href="#contact"
-            className="text-black bg-primary py-4 px-8 rounded-full text-sm mt-4 inline-block"
-          >
-            Contact Us
-          </Link> */}
           </div>
           <div>
             <div className="flex flex-col md:grid grid-cols-2 gap-4">
