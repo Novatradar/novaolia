@@ -11,7 +11,6 @@ export async function POST(req: Request) {
   const text = `📬 New Contact Message:\n\n👤 Name: ${name}\n📧 Email: ${email}\n📧 Phone: ${phoneNumber}\n📧 Purpose: ${purpose}\n📝 Message:\n${message}`;
 
   const telegramUrl = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
-
   try {
     const res = await fetch(telegramUrl, {
       method: 'POST',
