@@ -113,7 +113,7 @@ export default function Home() {
                 />
               </div>
               <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
-                <h4 className="text-lg md:text-2xl font-bold mb-1 md:mb-4">
+                <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-4">
                   Refined Sunflower Oil (RBDW)
                 </h4>
                 <p className="text-sm md:text-base leading-loose md:mb-12">
@@ -134,7 +134,7 @@ export default function Home() {
                 />
               </div>
               <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
-                <h4 className="text-lg md:text-2xl font-bold mb-1 md:mb-4">
+                <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-4">
                   Cold-Pressed Sunflower Oil
                 </h4>
                 <p className="text-sm md:text-base leading-loose md:mb-12">
@@ -155,7 +155,7 @@ export default function Home() {
                 />
               </div>
               <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
-                <h4 className="text-lg md:text-2xl font-bold mb-1 md:mb-4">
+                <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-4">
                   Organic Sunflower Oil
                 </h4>
                 <p className="text-sm md:text-base leading-loose md:mb-12">
@@ -176,7 +176,7 @@ export default function Home() {
                 />
               </div>
               <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
-                <h4 className="text-lg md:text-2xl font-bold mb-1 md:mb-4">
+                <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-4">
                   High Oleic Sunflower Oil
                 </h4>
                 <p className="text-sm md:text-base leading-loose md:mb-12">
@@ -197,7 +197,7 @@ export default function Home() {
                 />
               </div>
               <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
-                <h4 className="text-lg md:text-2xl font-bold mb-1 md:mb-4">
+                <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-4">
                   Sunflower Oil Blends
                 </h4>
                 <p className="text-sm md:text-base leading-loose md:mb-12">
@@ -218,7 +218,7 @@ export default function Home() {
                 />
               </div>
               <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
-                <h4 className="text-lg md:text-2xl font-bold mb-1 md:mb-4">
+                <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-4">
                   Bulk Sunflower Oil
                 </h4>
                 <p className="text-sm md:text-base leading-loose md:mb-12">
@@ -239,7 +239,7 @@ export default function Home() {
                 />
               </div>
               <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
-                <h4 className="text-lg md:text-2xl font-bold mb-1 md:mb-4">
+                <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-4">
                   Consumer Packaged Oil
                 </h4>
                 <p className="text-sm md:text-base leading-loose md:mb-12">
@@ -259,7 +259,7 @@ export default function Home() {
                 />
               </div>
               <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
-                <h4 className="text-lg md:text-2xl font-bold mb-1 md:mb-4">
+                <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-4">
                   Crude Sunflower Oil
                 </h4>
                 <p className="text-sm md:text-base leading-loose md:mb-12">
@@ -280,7 +280,7 @@ export default function Home() {
                 />
               </div>
               <div className="md:bg-white border-[.65px] border-[#F3F3F3] rounded-[28px] pt-3 md:pt-10 pb-6 md:pb-14 px-6 text-center">
-                <h4 className="text-lg md:text-2xl font-bold mb-1 md:mb-4">
+                <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-4">
                   Sunflower Seeds
                 </h4>
                 <p className="text-sm md:text-base leading-loose md:mb-12">
