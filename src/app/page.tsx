@@ -301,8 +301,12 @@ export default function Home() {
                   <li className="text-sm md:text-base">
                     Linoleic Acid (Omega-6): 52 - 78%
                   </li>
-                  <li className="text-sm md:text-base">Oleic Acid (Omega-9): 52 - 78%</li>
-                  <li className="text-sm md:text-base">Palmitic Acid: 5 - 7%</li>
+                  <li className="text-sm md:text-base">
+                    Oleic Acid (Omega-9): 52 - 78%
+                  </li>
+                  <li className="text-sm md:text-base">
+                    Palmitic Acid: 5 - 7%
+                  </li>
                 </ul>
               </div>
               <div>
@@ -353,7 +357,6 @@ export default function Home() {
               <h4 className="text-base font-bold mb-3">Call Or WhatsApp</h4>
               <ul>
                 <li className="mb-0">
-                  We are interested in Novaolia. 
                   <Link
                     href="https://wa.me/+380971200700?text=Hello%20Vladyslav,%20we%20are%20interested%20in%20Novaolia"
                     className="text-sm text-[#696969] font-light"
@@ -401,7 +404,7 @@ export default function Home() {
               <ul>
                 <li className="mb-0">
                   <Link href="#" className="text-sm text-[#696969] font-light">
-                    , Хмільник, Vinnytsia Oblast, 22000
+                    Zhylianska, 75 Kyiv, Ukraine, 01032
                   </Link>
                 </li>
               </ul>

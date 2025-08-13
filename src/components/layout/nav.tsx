@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import LogoImg from "@/logo.webp";
+import LogoImg from "@/images/logo.jpeg";
 import Image from "next/image";
 
 import { HiOutlineMenuAlt3 } from "react-icons/hi";

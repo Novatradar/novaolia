@@ -22,7 +22,7 @@ const Footer = () => {
         </li>
         <li className="md:border-l border-solid border-white px-5">
           <Link href="/" className="text-white opacity-80 text-base">
-            , Хмільник, Vinnytsia Oblast, 22000
+            Zhylianska, 75 Kyiv, Ukraine, 01032
           </Link>
         </li>
       </ul>
@@ -33,7 +33,10 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <Link href="/terms-and-conditions" className="text-white text-base opacity-60">
+          <Link
+            href="/terms-and-conditions"
+            className="text-white text-base opacity-60"
+          >
             Terms and Conditions
           </Link>
         </li>
