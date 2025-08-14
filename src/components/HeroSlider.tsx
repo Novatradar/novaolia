@@ -35,7 +35,7 @@ const slides: Slide[] = [
     rangeStyling: "text-black bg-white",
   },
   {
-    image: "/images/hero6.png",
+    image: "/images/hero7.jpeg",
     heading: "Quality Assurance",
     subtext:
       "Rigorous quality control processes ensure every product meets international standards and customer expectations.",
