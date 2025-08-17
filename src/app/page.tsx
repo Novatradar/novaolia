@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <DisplayLayout>
       <div>
-        <div id="home" className="px-0 md:px-8">
+        <div id="home" className="px-0 md:px-8 mt-24">
           <HeroSlider />
         </div>
         <div className="section bg-white px-5 md:px-20 pt-20" id="about">
@@ -343,7 +343,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col md:grid grid-cols-4 gap-5 md:gap-10">
-            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-10">
+            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-5">
               <div className="size-[54px] rounded-[13px] bg-[#FFF9EE] mb-8 flex items-center justify-center">
                 <Image
                   src={PhoneImg}
@@ -358,15 +358,15 @@ export default function Home() {
               <ul>
                 <li className="mb-0">
                   <Link
-                    href="https://wa.me/+380971200700?text=Hello%20Vladyslav,%20we%20are%20interested%20in%20Novaolia"
+                    href="https://wa.me/+380936249244?text=Hello%20Vladyslav,%20we%20are%20interested%20in%20Novaolia"
                     className="text-sm text-[#696969] font-light"
                   >
-                    +380-97-120-0700
+                    +380-93-624-9244
                   </Link>
                 </li>
               </ul>
             </div>
-            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-10">
+            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-6">
               <div className="size-[54px] rounded-[13px] bg-[#EEEEFF] mb-8 flex items-center justify-center">
                 <Image
                   src={MailImg}
@@ -378,18 +378,34 @@ export default function Home() {
                 />
               </div>
               <h4 className="text-base font-bold mb-3">Send Us an Email</h4>
-              <ul>
-                <li className="mb-3">
+              <ul className="flex gap-2 flex-wrap">
+                <li className="">
                   <Link
-                    href="mailTo:novatradar@gmail.com"
+                    href="mailTo:sales@novaolia.com"
                     className="text-sm text-[#696969] font-light"
                   >
-                    novatradar@gmail.com
+                    sales@novaolia.com
+                  </Link>
+                </li>
+                <li className="">
+                  <Link
+                    href="mailTo:partnership@novaolia.com"
+                    className="text-sm text-[#696969] font-light"
+                  >
+                    partnership@novaolia.com
+                  </Link>
+                </li>
+                <li className="">
+                  <Link
+                    href="mailTo:accountmanagement@novaolia.com"
+                    className="text-sm text-[#696969] font-light"
+                  >
+                    accountmanagement@novaolia.com
                   </Link>
                 </li>
               </ul>
             </div>
-            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-10">
+            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-5">
               <div className="size-[54px] rounded-[13px] bg-[#FFEEF9] mb-8 flex items-center justify-center">
                 <Image
                   src={LocationImg}
@@ -409,7 +425,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-10">
+            <div className="border-[.65px] border-[#D8D8D8] rounded-[53px] py-8 px-5">
               <div className="size-[54px] rounded-[13px] bg-[#FFF9EE] mb-8 flex items-center justify-center">
                 <BsTelegram className="text-2xl text-[#FFB705]" />
               </div>

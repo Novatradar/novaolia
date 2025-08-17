@@ -4,20 +4,28 @@ const Footer = () => {
   return (
     <footer className="bg-black py-20 max-w-[1500px] mx-auto">
       <ul className="flex flex-col md:flex-row justify-center items-center gap-5 mb-8">
-        <li>
+        <li className="">
           <Link
-            href="mailTo:novatradar@gmail.com"
-            className="text-base text-white opacity-80 font-light"
+            href="mailTo:sales@novaolia.com"
+            className="text-sm text-white font-light"
           >
-            novatradar@gmail.com
+            sales@novaolia.com
+          </Link>
+        </li>
+        <li className="">
+          <Link
+            href="mailTo:accountmanagement@novaolia.com"
+            className="text-sm text-white font-light"
+          >
+            accountmanagement@novaolia.com
           </Link>
         </li>
         <li className="md:border-l border-solid border-white px-5">
           <Link
-            href="https://wa.me/+380971200700?text=Hello%20there.%20I%20am%20from%20the%20site"
+            href="https://wa.me/+380936249244?text=Hello%20there.%20I%20am%20from%20the%20site"
             className="text-base text-white opacity-80 font-light"
           >
-            +380-97-120-0700
+            +380-93-624-9244
           </Link>
         </li>
         <li className="md:border-l border-solid border-white px-5">

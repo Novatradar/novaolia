@@ -16,7 +16,7 @@ const Navigation = () => {
 
   return (
     <>
-      <nav className="py-4 flex justify-between items-center top-0 left-0 right-0 z-50 px-5 md:px-20">
+      <nav className="py-4 flex justify-between items-center top-0 left-0 right-0 z-50 px-5 md:px-20 fixed w-full">
         <div>
           <Link href="/">
             <Image
