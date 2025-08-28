@@ -22,10 +22,10 @@ const Footer = () => {
         </li>
         <li className="md:border-l border-solid border-white px-5">
           <Link
-            href="https://wa.me/+380936249244?text=Hello%20there.%20I%20am%20from%20the%20site"
+            href="https://wa.me/+380971200700?text=Hello%20there.%20I%20am%20from%20the%20site"
             className="text-base text-white opacity-80 font-light"
           >
-            +380-93-624-9244
+            +380-97-120-0700
           </Link>
         </li>
         <li className="md:border-l border-solid border-white px-5">

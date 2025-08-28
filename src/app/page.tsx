@@ -358,10 +358,10 @@ export default function Home() {
               <ul>
                 <li className="mb-0">
                   <Link
-                    href="https://wa.me/+380936249244?text=Hello%20Vladyslav,%20we%20are%20interested%20in%20Novaolia"
+                    href="https://wa.me/+380971200700?text=Hello%20Vladyslav,%20we%20are%20interested%20in%20Novaolia"
                     className="text-sm text-[#696969] font-light"
                   >
-                    +380-93-624-9244
+                    +380-97-120-0700
                   </Link>
                 </li>
               </ul>
